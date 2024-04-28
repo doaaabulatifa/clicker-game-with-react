@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+*{
+  background-color: white;
+}
+body{
+  background-image: url(./haha.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h1{
+  background-color: white;
+
+  color: rgb(214, 24, 116);
+}
+.img{
+  height: 200px;
+  width: 200px;
+  background-color: white;
+}
+.p{
+  color:rgb(214, 114, 114);
+  font-size: 30px;
+  font-weight: bold;
+}
+#joke{
+  z-index: 10;
+  color: rgb(76, 121, 173);
+  box-sizing: content-box;
+  font-weight: bold;
+  font-size: 30px;
+ border: dotted 2px;
+ padding: 5px;
+}

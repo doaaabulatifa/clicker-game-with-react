@@ -1,0 +1,21 @@
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+  
+  .button {
+    background-color:beige;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(237, 15, 160);
+  }
+  
+  .button.disabled {
+    background-color: rgb(181, 148, 154);
+    cursor:wait;
+  }
+  
