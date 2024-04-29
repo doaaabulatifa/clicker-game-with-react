@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  width:50%
   
 }
 *{
@@ -24,9 +25,15 @@ body{
   background-color: white;
 }
 .p{
-  color:rgb(214, 114, 114);
-  font-size: 30px;
+  color:rgb(64, 31, 31);
+  font-size: 20px;
   font-weight: bold;
+  margin: 5px;
+  padding: 5px;
+  background-color: rgb(185, 167, 203);
+  border-radius: 50%;
+  align-items: center;
+
 }
 #joke{
   z-index: 10;

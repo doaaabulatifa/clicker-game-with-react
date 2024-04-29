@@ -63,8 +63,8 @@ export default function App() {
       <p className="p">You've laughed {laughs} laughs!</p>
       <p className="p">Laughs per second: {lps}</p>
       {currentJoke && <p id="joke">Joke: {currentJoke}</p>}
-      <button onClick={stopAudio}>Stop loughing! it's not fuuny!</button>
-      <button onClick={resetLaughs}>Sad Mood</button>
+      <button className="p"  onClick={stopAudio}>Stop loughing! it's not fuuny!</button>
+      <button className="p" onClick={resetLaughs}>Sad Mood</button>
       <PurchaseItem laughs={laughs} setLaughs={setLaughs} lps={lps} setLps={setLps} />
       
     </>
